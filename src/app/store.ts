@@ -1,9 +1,18 @@
+/*
+ * @Author: cathylee 447932704@qq.com
+ * @Date: 2023-02-10 23:32:41
+ * @LastEditors: cathylee 447932704@qq.com
+ * @LastEditTime: 2023-02-10 23:35:03
+ * @FilePath: /minidemo/newapp/src/app/store.ts
+ * @Description: 
+ * 
+ * Copyright (c) 2023 by ${git_name_email}, All Rights Reserved. 
+ */
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    
   },
 });
 
